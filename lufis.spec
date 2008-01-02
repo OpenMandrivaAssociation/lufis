@@ -13,6 +13,7 @@ Source0:	%{name}-%{version}.tar.bz2
 URL:		http://sourceforge.net/projects/fuse/
 Requires:	lufs >= 0.9.1 fuse >= 1.1
 BuildRequires:	fuse-devel >= 1.1
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This is a modified LUFS daemon, which uses the FUSE kernel module.  It
