@@ -10,7 +10,7 @@ Release:	%{release}
 License:	GPL
 Group:		File tools
 Source0:	%{name}-%{version}.tar.bz2
-URL:		http://sourceforge.net/projects/fuse/
+URL:		https://sourceforge.net/projects/fuse/
 Requires:	lufs >= 0.9.1 fuse >= 1.1
 BuildRequires:	fuse-devel >= 1.1
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
