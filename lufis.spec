@@ -12,6 +12,7 @@ Group:		File tools
 Source0:	%{name}-%{version}.tar.bz2
 URL:		https://sourceforge.net/projects/fuse/
 Requires:	lufs >= 0.9.1 fuse >= 1.1
+BuildRequires:	make
 BuildRequires:	fuse-devel >= 1.1
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
