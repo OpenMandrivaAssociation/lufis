@@ -1,7 +1,7 @@
 %define	name	lufis
 %define	version	0.3
 %define	rel	2
-%define	release	%mkrel %{rel}
+%define	release %{rel}.1
 
 Summary:	Modified LUFS daemon which uses the FUSE kernel module
 Name:		%{name}
